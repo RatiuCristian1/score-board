@@ -64,20 +64,24 @@ body {
         padding: 10px;
         background-image: url(img/nba\ background.jpg);
         border-radius: 10px;
+        padding-bottom: 15px;
+        height: 350px;
 
     }
 
     .container {
         display: flex;
-        justify-content: space-around;
-        font-size: x-large;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
         /* border: 1px solid rgb(224, 17, 17); */
         height: 65px;
         padding-left: 8px;
         color: rgb(252, 252, 252);
-        padding-bottom: 30px;
         font-family: 'Roboto';
-        font-size: xx-large;
+        font-size: 40px;
+        padding-top: 15px;
+        padding-right: 10px;
         
     
     }
@@ -92,31 +96,34 @@ body {
         
     }
     .score-board {
-        width: 120px;
-        height: 90px;
+        width: 150px;
+        height: 120px;
         border: 1px solid rgb(155, 26, 4);
         text-align: center;
-        padding-top: 30px;
         font-family: 'Allerta Stencil';
-        font-size: 50px;
+        font-size: 80px;
         background-color: rgb(1, 22, 4);
         color: #F94F6D;
-        border-radius: 5px;  
+        border-radius: 5px; 
+        padding: 5px; 
+
     }
 
     .score-btn > * {
         display: flex;
-        justify-content: space-around;
-        width: 140px;
-        height: 40px;
+        justify-content: center;
+        gap: 5px;
+        height: 50px;
         /* border: 1px solid rgb(155, 26, 4); */
+        
     }
     .points-btn > button {
         border: 1px solid white;
         background-color: #1B244A;
         color: white;
         border-radius: 5px; 
-        width: 40px;
+        width: 50px;
+    
     }
 
 }
